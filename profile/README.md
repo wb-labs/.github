@@ -62,7 +62,7 @@ Vue.use(Vuetify);
 Vue.use(WBCUI2, { context: require.context(".", true) });
 ```
 
-➡️ **Full docs, architecture, and API reference: [see Documentation →](../docs/wbc-ui2/)**
+➡️ **Full docs, architecture, and API reference: [see Documentation →](../frontEnd/wbc-ui2/)**
 
 ---
 
@@ -81,7 +81,7 @@ WBC-UI2 follows the **Open Core** model — a massive free engine for the commun
 > **"Free users can bind states. Pro users can command them."**
 > **"3 hooks for builders, 7 hooks for architects."**
 
-➡️ **[Full Free vs Pro comparison →](../docs/wbc-ui2/strategy/free-vs-pro.md)**
+➡️ **[Full Free vs Pro comparison →](../frontEnd/wbc-ui2/strategy/free-vs-pro.md)**
 
 ---
 
@@ -115,14 +115,13 @@ WBC-UI2 follows the **Open Core** model — a massive free engine for the commun
 
 ```
 wb-labs/
-├── frontEnd/                   ← Frontend products
-│   └── wbc-ui/                 ← WBC-UI product line
-│       ├── core2/              ← Stable Vue 2 monorepo (v1.0.0) ✅
-│       └── core3/              ← Vue 3 + TypeScript (planned)
-├── backEnd/                    ← Backend services (Django — planned)
-├── mobile/                     ← Mobile apps (planned)
-├── chromeExtension/            ← Browser extensions (planned)
-└── VSExtension/                ← VS Code extensions (planned)
+├── [frontEnd/](../frontEnd/)                   ← Frontend products
+│   └── [wbc-ui2/](../frontEnd/wbc-ui2/)         ← WBC-UI2 product line
+├── [backEnd/](../backEnd/)                    ← Backend services
+├── [mobile/](../mobile/)                     ← Mobile apps
+├── [chromeExtension/](../chromeExtension/)    ← Browser extensions
+├── [VSExtension/](../VSExtension/)            ← VS Code extensions
+└── [wissemCareer/](../wissemCareer/)          ← About the Founder
 ```
 
 ---
@@ -133,15 +132,15 @@ Detailed public documentation for the WBC-UI2 ecosystem is available in this rep
 
 | Document | Description |
 | :--- | :--- |
-| [Architecture & Flow](../docs/wbc-ui2/architecture/technical-architecture.md) | How the engine works: bootstrapping, rendering, tiering |
-| [File Handling Guide](../docs/wbc-ui2/architecture/file-handling.md) | Smart file detection, JS case analysis, Pipe syntax |
-| [Free vs Pro](../docs/wbc-ui2/strategy/free-vs-pro.md) | Complete feature comparison table |
-| [Roadmap 2026](../docs/wbc-ui2/strategy/roadmap-2026.md) | Strategic milestones and monetization plan |
-| [Vue 3 Vision](../docs/wbc-ui2/strategy/vue3-vision.md) | TypeScript migration blueprint |
-| [wbc-ui2 (Core)](../docs/wbc-ui2/packages/wbc-ui2.md) | Core engine README |
-| [@wbc-ui2/code](../docs/wbc-ui2/packages/wbc-ui2-code.md) | Code package README |
-| [Apps Directory](../docs/wbc-ui2/apps/apps-directory.md) | All demos, doc portals, and starter templates |
-| [Ecosystem Hub](../docs/wbc-ui2/ecosystem-resources.md) | npm links, URLs, community |
+| [Architecture & Flow](../frontEnd/wbc-ui2/architecture/technical-architecture.md) | How the engine works: bootstrapping, rendering, tiering |
+| [File Handling Guide](../frontEnd/wbc-ui2/architecture/file-handling.md) | Smart file detection, JS case analysis, Pipe syntax |
+| [Free vs Pro](../frontEnd/wbc-ui2/strategy/free-vs-pro.md) | Complete feature comparison table |
+| [Roadmap 2026](../frontEnd/wbc-ui2/strategy/roadmap-2026.md) | Strategic milestones and monetization plan |
+| [Vue 3 Vision](../frontEnd/wbc-ui2/strategy/vue3-vision.md) | TypeScript migration blueprint |
+| [wbc-ui2 (Core)](../frontEnd/wbc-ui2/packages/wbc-ui2.md) | Core engine README |
+| [@wbc-ui2/code](../frontEnd/wbc-ui2/packages/wbc-ui2-code.md) | Code package README |
+| [Apps Directory](../frontEnd/wbc-ui2/apps/apps-directory.md) | All demos, doc portals, and starter templates |
+| [Ecosystem Hub](../frontEnd/wbc-ui2/ecosystem-resources.md) | npm links, URLs, community |
 
 ---
 
